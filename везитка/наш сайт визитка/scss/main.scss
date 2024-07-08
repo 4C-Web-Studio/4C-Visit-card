@@ -1,0 +1,102 @@
+
+@import "vars";
+
+
+p{
+    color: #000;
+}
+
+.active:hover{
+    background-color: $black;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.flex{
+   flex-grow: 0;
+}
+
+.padding{
+    padding-left: 10px;
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;  
+}
+
+
+.header, .info{
+    background-color: $white;
+}
+
+.container{
+    border: none;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h3{
+    color: $black
+}
+
+
+.logo-item{
+    size: 1280px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+}
+
+.btn-color{
+    background-color: $black;
+    border-color: $black;
+}
+
+.btn-color:hover{
+    background-color: $black;
+    border-color: #000;
+    color: #000;
+
+}
+
+.info{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid $white;
+    border-end-start-radius:  15px;
+    border-end-end-radius:  15px;
+}
+
+.title{
+    color:$black;
+}
+
+.why-img{
+    max-width: 150px;
+}
+
+.list-group-border{
+    border-color: #fff ;
+}
+
+
+.footer{
+    background-color: #000;
+    color:#fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.RGEY{
+    text-decoration: underline;
+    font-size: 7px;
+    font-weight: 300;
+    max-width: 90px;
+    color: #fff;
+}
+
