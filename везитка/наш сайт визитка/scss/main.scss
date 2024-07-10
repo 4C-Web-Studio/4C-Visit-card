@@ -117,8 +117,7 @@ body{
 
 
 .footer{
-    position: relative;
-    background-color: #000;
+    background-color: gray;
     color:#fff;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -126,14 +125,16 @@ body{
 
 .RGEY{
     text-decoration: underline;
-    font-size: 7px;
+    font-size: 10px;
     font-weight: 300;
-    max-width: 90px;
+    max-width: 400px;
     color: #fff;
+    opacity: 0.55;
+    
 }
 
 .cat{
-    top: 54%;
+    top: 48%;
     left: 71%;
     position: absolute;
 }
