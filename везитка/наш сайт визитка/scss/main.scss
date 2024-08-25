@@ -1,15 +1,25 @@
 
 @import "vars";
 
+$carousel-control-color: #000;
+
+
+body{
+    border-color: #C4B9B9;
+}
 
 p{
     color: #000;
 }
 
-.active:hover{
-    background-color: $black;
-    text-decoration: underline;
-    border-radius: 5px;
+.nav-link.active{
+    color: $perple;
+}
+
+.active-header:hover{
+    color: $perple;
+    border-bottom: 2px dashed $perple;
+    border-top: 2px dashed $perple;
 }
 
 .flex{
@@ -41,9 +51,6 @@ body{
     align-items: center;
 }
 
-.logo h3{
-    color: $black
-}
 
 
 .logo-item{
@@ -53,13 +60,14 @@ body{
 }
 
 .btn-color{
-    background-color: $black;
+    background-color: $perple;
     border-color: $black;
 }
 
 .btn-color:hover{
-    background-color: $black;
-    border-color: #000;
+    background-color: $yellow;
+    color: $perple;
+   border-color: $yellow;
     color: #000;
 
 }
@@ -75,7 +83,17 @@ body{
 
 
 .title{
-    color:$black;
+    color:$yellow;
+    border-bottom: 1px dashed $white;
+
+    
+}
+
+.info-backgraund{
+    background-color: $perple;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
 }
 
 .why, .nn, .group{
@@ -83,8 +101,15 @@ body{
 }
 
 .why-img{
-    max-width: 150px;
+    margin-top: 20px;
+    max-width: 350px;
     border-radius: 15px;
+}
+
+.d-flex{
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -110,6 +135,10 @@ body{
     border-color: #fff ;
 }
 
+.group{
+    margin-top: 25px;
+}
+
 
 .group-item{
     position: relative;
@@ -117,7 +146,7 @@ body{
 
 
 .footer{
-    background-color: gray;
+    background-color: $perple;
     color:#fff;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -137,4 +166,13 @@ body{
     top: 48%;
     left: 71%;
     position: absolute;
+}
+
+.carousel-control-prev{
+    color: #000;
+}
+
+
+.h5-color{
+    color: $yellow;
 }
